@@ -5,16 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm run dev",
     "lint": "next lint"
   },
   "dependencies": {
-    "@tensorflow-models/coco-ssd": "^2.2.2",
-    "@tensorflow-models/mobilenet": "^2.1.0",
-    "@tensorflow/tfjs": "^4.6.0",
-    "@tensorflow/tfjs-backend-webgl": "^4.6.0",
+    "@tensorflow-models/coco-ssd": "2.2.2",
+    "@tensorflow-models/mobilenet": "2.1.0",
+    "@tensorflow/tfjs": "^4.7.0",
     "autoprefixer": "10.4.14",
+    "i": "^0.3.7",
     "next": "13.4.4",
+    "npm": "^9.7.1",
     "opencv.js": "^1.2.1",
     "postcss": "8.4.24",
     "react": "^18.2.0",
